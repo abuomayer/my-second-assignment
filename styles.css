@@ -1,0 +1,32 @@
+
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{margin: 0px;}
+
+
+.main-nav{display: flex;justify-content: space-between; max-width: 71rem;max-height:5.1rem ;margin: auto;margin-top: 25px;margin-left: auto;margin-right: auto;
+}
+
+.list-style{list-style: none;display: flex;gap: 2.8rem;margin-top: 30px;
+}
+
+.text-content{width: 570px;height: 299px;display: flex;flex-direction: column;justify-content: space-between;margin-top: 52px;}
+
+
+.first-banner{display: flex;justify-content: center;margin-top: 190px;}
+
+.first-banner-text{font-size:65px;font-weight: bold;}
+
+.org-text{color: #E95A08;}
+
+.text-opacity-50{color: #000000;opacity: 50%;}
+
+
+
