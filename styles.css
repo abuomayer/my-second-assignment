@@ -8,14 +8,29 @@
     "wdth" 100;
 }
 
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400px;
+  font-style: normal;
+}
+
 *{margin: 0px;}
 
 
 .main-nav{display: flex;justify-content: space-between; max-width: 71rem;max-height:5.1rem ;margin: auto;margin-top: 25px;margin-left: auto;margin-right: auto;
 }
 
+.nav-feature{color: #8987A1;font-size: medium;font-weight:normal;}
+
+.nav-feature-2{color:#252432 ;font-size: medium;font-weight: bold;}
+
+.text-decoration{text-decoration: none;color: #252432;}
+
 .list-style{list-style: none;display: flex;gap: 2.8rem;margin-top: 30px;
 }
+
 
 .text-content{width: 570px;height: 299px;display: flex;flex-direction: column;justify-content: space-between;margin-top: 52px;}
 
@@ -26,7 +41,22 @@
 
 .org-text{color: #E95A08;}
 
-.text-opacity-50{color: #000000;opacity: 50%;}
+.text-opacity-50{color: #000000;opacity: 50%;font-size:22px;}
 
 
+.card-headline-text{font-size: 50px;font-weight: bold;}
 
+
+.second-title-text{justify-content: center;text-align: center;margin-bottom: 48px;}
+
+.card{max-width:71rem;max-height: 1186px;margin-right: auto;margin-left: auto;margin-top: 100px;max-width: ;}
+
+.grid-container{display: grid;grid-template-columns:repeat(4,1fr);}
+ 
+.image-size{width:270px ;height: 322px;}
+
+.card-text-style{justify-content: center;text-align: center;font-size: 22px;font-weight: bold;color: #111111;padding-bottom: 20px;}
+
+.btn-style{background-color:#E95A08;width: 270px;height: 50px;border-style: none;color: aliceblue;margin-bottom: 32px;}
+
+.custom-img{width: 270px;height: 322.94px;}
