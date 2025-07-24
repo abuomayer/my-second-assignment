@@ -64,7 +64,7 @@
 
 .achievement-img{width: 540px;height: 597px;}
 
-.third-banner{display: flex ;justify-content: center;width: 1140px;height:597px;margin-left: auto;margin-right: auto;margin-top: 100px;}
+.third-banner{display: flex ;justify-content: center;width: 1140px;height:597px;margin-left: auto;margin-right: auto;margin-top: 120px;}
 
 .third-banner-head{font-size: 50px;}
 
@@ -74,3 +74,29 @@
 .badge{width: 200px;height: 200px;position: absolute;top: -90px;left: 430px;}
 
 .section-container{position: relative;}
+
+
+.fourth-banner-text{font-size: 50px;font-weight: bold;}
+
+.fourth-banner{justify-content: center;text-align: center;margin-top: 100px;}
+
+.deals-img{width: 1140px;height: 422px;display: flex;margin-left: auto;margin-right: auto;margin-top: 90px;}
+
+
+.c-img{border-radius: 14px;width:366px ;height: 206px;filter: brightness(50%);}
+
+.div-left{display:flex ;flex-direction:column;width: 423px;height: 323px;}
+
+.d-img{border-radius: 22px;filter: brightness(50%);height:465px ;width: 700px;}
+
+
+
+.text-above{position: relative;top: -60%;color: aliceblue;font-size: 40px;font-weight: bold;}
+
+
+.shop-n-25{color: white;font-size: 28px;font-weight: 600;}
+
+.text-above-small{position: relative;top: -50%;color: aliceblue;font-size: 20px;}
+
+.shop-n-60{color: aliceblue;font-size: 16px;}
+
