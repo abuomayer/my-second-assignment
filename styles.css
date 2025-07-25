@@ -87,11 +87,11 @@
 
 .div-left{display:flex ;flex-direction:column;width: 423px;height: 323px;}
 
-.d-img{border-radius: 22px;filter: brightness(50%);height:465px ;width: 700px;}
+.d-img{border-radius: 22px;filter: brightness(50%);height:470px ;width: 700px;}
 
 
 
-.text-above{position: relative;top: -60%;color: aliceblue;font-size: 40px;font-weight: bold;}
+.text-above{position: relative;top: -62%;color: aliceblue;font-size: 40px;font-weight: bold;}
 
 
 .shop-n-25{color: white;font-size: 28px;font-weight: 600;}
@@ -100,3 +100,19 @@
 
 .shop-n-60{color: aliceblue;font-size: 16px;}
 
+
+.for-mail{margin-top: 170px;margin-left:0px;margin-right:auto;margin-left: auto;width: 1440px;}
+
+.mail-above{position: relative;justify-content: center;text-align: center;top:-350px;font-size: 50px;color: aliceblue;}
+
+
+.subscribe-btn{background-color: #E95A08;border-style: none;width: 186px;height: 50px;color: aliceblue;font-weight: 600px;}
+
+.input-type{width: 644px;height: 45px;border-style: none;}
+
+input::placeholder {
+  color:#000000;
+  font-size: 16px;
+  opacity: 50%;
+  padding-left: 15px;
+}
