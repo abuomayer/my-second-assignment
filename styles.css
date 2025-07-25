@@ -1,4 +1,5 @@
-
+/* font */
+/* font */
 .noto-serif-font{
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
@@ -15,6 +16,13 @@
   font-weight:400px;
   font-style: normal;
 }
+
+
+
+
+
+/* 1st-banner */
+/* 1st-banner */
 
 *{margin: 0px;}
 
@@ -44,6 +52,13 @@
 .text-opacity-50{color: #000000;opacity: 50%;font-size:22px;}
 
 
+
+
+
+
+/* 2nd-banner */
+/* 2nd-banner */
+
 .card-headline-text{font-size: 50px;font-weight: bold;}
 
 
@@ -62,6 +77,13 @@
 .custom-img{width: 270px;height: 322.94px;}
 
 
+
+
+
+
+/* 3rd-banner */
+/* 3rd-banner */
+
 .achievement-img{width: 540px;height: 597px;}
 
 .third-banner{display: flex ;justify-content: center;width: 1140px;height:597px;margin-left: auto;margin-right: auto;margin-top: 120px;}
@@ -75,6 +97,12 @@
 
 .section-container{position: relative;}
 
+
+
+
+
+/* 4th-banner */
+/* 4th-banner */
 
 .fourth-banner-text{font-size: 50px;font-weight: bold;}
 
@@ -101,6 +129,11 @@
 .shop-n-60{color: aliceblue;font-size: 16px;}
 
 
+
+
+
+/* 5th-banner */
+/* 5th-banner */
 .for-mail{margin-top: 170px;margin-left:0px;margin-right:auto;margin-left: auto;width: 1440px;}
 
 .mail-above{position: relative;justify-content: center;text-align: center;top:-350px;font-size: 50px;color: aliceblue;}
@@ -116,3 +149,27 @@ input::placeholder {
   opacity: 50%;
   padding-left: 15px;
 }
+
+
+
+
+
+
+/* footer-section */
+/* footer-section */
+
+.footer-option{width: 1120px;height: 248px;margin-left: auto;margin-right: auto;display: flex;justify-content: space-between;}
+
+
+.footer-text-r{font-size: 22px;padding-top: 15px;}
+
+.footer-feature{display: grid;grid-template-columns: repeat(2,1fr);}
+
+.column-a{display: flex;flex-direction:column;justify-content: space-between;width:85px;height: 248px;}
+
+.column-b{display: flex;flex-direction:column;justify-content: space-between;width: 128px;height: 248px;}
+
+
+.icon-column{width:216px ;height: 36px;justify-content: space-between;display: flex;}
+
+.text-decoration-f{text-decoration: none;color:gray;}
