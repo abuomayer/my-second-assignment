@@ -36,6 +36,9 @@
 
 .text-decoration{text-decoration: none;color: #252432;}
 
+.text-decoration-1{text-decoration: none;color: #252432;}
+
+
 .list-style{list-style: none;display: flex;gap: 2.8rem;margin-top: 30px;
 }
 
@@ -43,7 +46,7 @@
 .text-content{width: 570px;height: 299px;display: flex;flex-direction: column;justify-content: space-between;margin-top: 52px;}
 
 
-.first-banner{display: flex;justify-content: center;margin-top: 190px;}
+.first-banner{display: flex;justify-content: center;margin-top: 90px;}
 
 .first-banner-text{font-size:65px;font-weight: bold;}
 
@@ -148,6 +151,7 @@ input::placeholder {
   font-size: 16px;
   opacity: 50%;
   padding-left: 15px;
+
 }
 
 
@@ -173,3 +177,90 @@ input::placeholder {
 .icon-column{width:216px ;height: 36px;justify-content: space-between;display: flex;}
 
 .text-decoration-f{text-decoration: none;color:gray;}
+
+
+
+
+
+/* responsive media query */
+/* responsive media query */
+
+
+@media screen and (max-width:576px) {.logo-primary{width:63px ;height: 38px;margin-top: 25px;}
+  
+.text-decoration, .nav-feature, .text-decoration-1 {display: none;}
+
+
+.main-nav{justify-content: space-betwnen;max-width: 361px;max-height: 38px;margin-top: 0%;}
+
+.nav-feature-2, .text-decoration{display: inline-block;margin-top: 0cap;}
+
+.text-content{display: none;margin-left: 15px;margin-right: 15px;w}
+
+
+.first-banner-text{max-width: 361px;max-height: 147px;font-size: 24px;}
+
+.text-opacity-50{font-size: 14px;margin-top: 13px;}
+
+.first-banner{display: flex;flex-direction: column-reverse;}
+
+
+.text-content{display: inline-block;width: 361px;height: 147px;margin-top: 90px;}
+
+.second-title-text{max-width: 393px;height: 117px;margin-left: auto;margin-right: auto;margin-top: 0%;padding-top: 0%;text-align: center;justify-content: center;}
+
+.card-headline-text{font-size:24px;}
+
+
+
+.grid-container{display: grid;grid-template-columns: repeat(2, 1fr);gap: 20px;max-width: 362px;}
+
+.third-banner{padding-top: 930px;display: flex;justify-content: center;text-align: center;max-width: 576px;flex-direction: column-reverse;gap: 50px;}
+
+.third-banner-head{font-size: 24px;}
+
+.achievement-img{width:358px ;height: 396px;}
+
+.badge{display: none;}
+
+.third-banner-ul{font-size: 14px;width: 360px;text-align: center;justify-content: center;margin-left: auto;margin-right: auto;}
+
+
+.fourth-banner-text{font-size: 24px;}
+
+.text-opacity-50{font-size: 14px;}
+
+.deals-img{display: grid;grid-template-columns: repeat(1, 1fr);max-width: 361px ;max-height: 581px;margin-top: 150px;margin-left: auto;margin-right: auto;justify-content: center;}
+
+
+.d-img{max-width: 366px;max-height: 206px;margin-top: 120px;}
+
+.text-above{font-size: 20px;margin-top: 280px;}
+.shop-n-25{font-size: 16px;}
+
+
+.div-right{text-align: center;justify-content: center;margin-left: auto;margin-right: auto;}
+
+.div-left{text-align: center;justify-content: center;margin-left: auto;margin-right: auto;}
+
+
+.email-img{max-width: 576px;max-height: 276px;margin-top: 120px;justify-content: center;text-align: center;margin-left: auto;margin-right: auto;}
+
+.for-mail{ax-width: 576px;max-height: 276px;}
+
+
+.mail-above{width: 321px;height: 100px;padding-left: 5%;padding-right: 45%;}
+
+.mail-head{font-size: 20px;padding-top: 150px;}
+
+.input-type{width: 218px;height: 50px;}
+
+.subscribe-btn{width: 103px;height: 50px;}
+
+.footer-text{width: 359px;margin-left: 50px;}
+
+.footer-img{margin-top: 100px;margin-left: 50px;}
+
+
+}
+
